@@ -27,3 +27,16 @@ Possible Outputs:
 *   for unknown password or difficult one
 
 > Password not found.
+
+# generate and check password
+
+use diceware to generate random passpharse and also at same time check the password-pwned
+
+```
+pip install diceware
+```
+
+just run 
+```
+python generate_and_check.py
+```
