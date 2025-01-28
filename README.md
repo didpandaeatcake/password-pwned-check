@@ -13,7 +13,7 @@ then run the code 
 ```
 python passwordpwned.py
 ```
-**Always remove the check\_passord value after running the code for security**  
+**Always remove the check\_password value after running the code for security**  
 
 It will check first five prefix of your password hash against api pwnedpasswords and let you know  
 if the password is weak or not, otherwise show "Password not found."
