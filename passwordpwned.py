@@ -3,7 +3,7 @@
 import requests
 import hashlib
 
-check_password = 'yellow' #put your password here
+check_password = 'password1' #put your password here
 hash_object = hashlib.sha1(check_password.encode())
 hex_digest = hash_object.hexdigest().upper()
 
